@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html> 
+<head>     
+    <title>UATAC - Ultimate ASCII To Anything Converter</title>     
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/convert.js"></script>
+</head>   
+<body>     
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="ascii" class="control-label">Text (ASCII)</label>
+                        <textarea id="ascii" name="ascii" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromASCII()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="hex" class="control-label">Hexadecimal</label>
+                        <textarea id="hex" name="hex" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromHex()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="bin" class="control-label">Binary</label>
+                        <textarea id="bin" name="bin" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromBin()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="decimal" class="control-label">Decimal</label>
+                        <textarea id="decimal" name="decimal" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromDecimal()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="base64" class="control-label">Base64</label>
+                        <textarea id="base64" name="base64" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromBase64()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="url" class="control-label">URL Encoded</label>
+                        <textarea id="url" name="url" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromURL()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div class="form-group">
+                        <label for="rot13" class="control-label">ROT13</label>
+                        <textarea id="rot13" name="rot13" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="button" onclick="convertFromROT13()" class="btn btn-default">Convert</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html> 
