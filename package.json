@@ -8,6 +8,10 @@
     "start": "electron .",
     "build": "electron-packager . uatac --arch x64 --out dist/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarquesdev/uatac.git"
+  },
   "author": "Diego Marques",
   "license": "MIT",
   "devDependencies": {
